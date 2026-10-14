@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3f5f8;
+            color: #222;
+        }
+        header {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        main {
+            max-width: 900px;
+            margin: 25px auto;
+            padding: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .emoji {
+            font-size: 45px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Electronic Store</h1>
+        <p>Discover your favourite electronics</p>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product">
+                <div class="emoji">📱</div>
+                <h3>Mobile Phones</h3>
+                <p>Latest smartphones</p>
+            </div>
+            <div class="product">
+                <div class="emoji">💻</div>
+                <h3>Laptops</h3>
+                <p>Powerful computers</p>
+            </div>
+            <div class="product">
+                <div class="emoji">🎧</div>
+                <h3>Headphones</h3>
+                <p>Enjoy your music</p>
+            </div>
+            <div class="product">
+                <div class="emoji">⌚</div>
+                <h3>Smart Watches</h3>
+                <p>Technology on your wrist</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Electronic Store | DevOps College Project</p>
+    </footer>
+</body>
+</html>
